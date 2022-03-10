@@ -2,7 +2,7 @@
   "name": "chat-room",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webserver.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Brinabean/chat-room#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "php": "^1.0.2"
+    "php": "^1.0.2",
+    "php-express": "^0.0.3",
+    "websocket": "^1.0.34"
   }
 }
