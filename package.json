@@ -1,25 +1,26 @@
 {
-  "name": "chat-room",
+  "name": "current-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "webserver.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brinabean/chat-room.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brinabean/chat-room/issues"
   },
   "homepage": "https://github.com/Brinabean/chat-room#readme",
-  "dependencies": {
-    "express": "^4.17.3",
-    "php": "^1.0.2",
-    "php-express": "^0.0.3",
-    "websocket": "^1.0.34"
-  }
+  "description": ""
 }
